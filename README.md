@@ -14,14 +14,14 @@ PosterPilot 是一个用于探索“受约束设计 Agent”工程实践的电�
 
 当前仍使用确定性本地 Planner，方便零成本开发和测试；真实 LLM 适配器和一次受控重试尚未接入。图片生成、可编辑图层、版本恢复会按 `doc/06-development-plan.md` 逐步实现。真实完成边界见 `doc/13-phase-2-planner-foundation.md`。
 
-当前产出总览见 [`PROJECT_STATUS.md`](PROJECT_STATUS.md)。如果按每天 8 小时压缩实施，两周 MVP 的范围和每日验收标准见 [`doc/14-two-week-mvp-plan.md`](doc/14-two-week-mvp-plan.md)。原 10 周计划继续作为生产化范围基线。
+当前产出总览见 [`PROJECT_STATUS.md`](PROJECT_STATUS.md)。项目后续统一按照 [`doc/06-development-plan.md`](doc/06-development-plan.md) 中的 10 周计划推进，每个阶段均需完成实现、测试和文档验收。
 
 ## 环境要求
 
 - Node.js >= 20（推荐 22 或 24）
 - pnpm 11
 
-本机如果默认 Node 版本过低，可使用 Codex 工作区附带的 Node 运行时，或通过 nvm/fnm 安装新版 Node。
+本机如果默认 Node 版本过低，可通过 nvm、fnm 或 Node.js 官方安装包切换到受支持版本。
 
 ## 启动
 

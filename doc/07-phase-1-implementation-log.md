@@ -12,7 +12,7 @@
 
 - 工作目录初始为空，仅包含 `work/` 与 `outputs/`。
 - 系统默认 Node.js 为 v12.18.2，不能满足现代 Vite/Fastify。
-- 发现 Codex 工作区运行时提供 Node.js v24.19.0 和 pnpm v11.25.0。
+- 使用 Node.js v24.19.0 和 pnpm v11.25.0 完成依赖安装与验证。
 - 项目声明 `node >= 20`，后续命令使用新版运行时。
 
 ### Step 2：建立 Monorepo

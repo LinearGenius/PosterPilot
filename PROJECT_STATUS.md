@@ -20,7 +20,6 @@ PosterPilot 已完成可运行的 Phase 1，并进入 Phase 2 Planner 工程化�
 | 产品与架构文档 | `doc/00`–`doc/06` | 范围、流程、架构、领域模型、状态机、API 和路线图 |
 | 实施与验收 | `doc/07`、`doc/08`、`doc/10`–`doc/13` | 实施步骤、测试证据、视觉改版、响应式、助手和 Planner 基础 |
 | 演示指南 | `doc/09-project-demo-guide.md` | 项目介绍、演示路径、技术问答和实现边界 |
-| 两周计划 | `doc/14-two-week-mvp-plan.md` | 每天 8 小时的压缩范围、日程和验收标准 |
 
 完整文档索引见 [`doc/README.md`](doc/README.md)。
 
@@ -41,6 +40,6 @@ PosterPilot 已完成可运行的 Phase 1，并进入 Phase 2 Planner 工程化�
 
 ## 完成口径
 
-- “两周完成”指有限范围的可演示 MVP，不等于原十周计划中的生产化版本。
+- 项目以 `doc/06-development-plan.md` 的 10 周计划作为唯一实施路线。
 - 每个完成项必须同时具备：代码、异常路径测试、`doc/` 记录和可重复验收命令。
 - 未接入或未验证的能力必须继续标注为计划项，不能作为已完成功能对外声明。

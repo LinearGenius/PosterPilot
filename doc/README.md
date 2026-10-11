@@ -18,8 +18,7 @@
 12. [11-chinese-pages-and-responsive-layout.md](11-chinese-pages-and-responsive-layout.md)：中文双页面、一屏工作台与响应式改造记录。
 13. [12-assistant-mascot-design.md](12-assistant-mascot-design.md)：3D 助手精灵的参考拆解、角色设定与三视图。
 14. [13-phase-2-planner-foundation.md](13-phase-2-planner-foundation.md)：Planner Provider、Schema、防污染失败路径和固定用例集。
-15. [14-two-week-mvp-plan.md](14-two-week-mvp-plan.md)：每天 8 小时的两周压缩范围、逐日任务和验收标准。
-16. [decisions/ADR-001-deterministic-first.md](decisions/ADR-001-deterministic-first.md)：为什么先用确定性 Planner。
+15. [decisions/ADR-001-deterministic-first.md](decisions/ADR-001-deterministic-first.md)：为什么先用确定性 Planner。
 
 ## 文档维护规则
 
