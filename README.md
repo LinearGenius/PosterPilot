@@ -1,6 +1,6 @@
 # PosterPilot
 
-PosterPilot 是一个面向求职演示的“电商活动海报 Agent”开源项目。它不是对任何原公司产品的复制，而是一个从零实现、边界清晰、过程可解释的独立项目。
+PosterPilot 是一个用于探索“受约束设计 Agent”工程实践的电商活动海报开源项目。项目从零实现，边界清晰、过程可解释，并提供可重复验证的完整技术记录。
 
 当前版本完成了第一个可运行纵向切片，并进入 Planner 工程化阶段：
 
@@ -14,7 +14,7 @@ PosterPilot 是一个面向求职演示的“电商活动海报 Agent”开源�
 
 当前仍使用确定性本地 Planner，方便零成本开发和测试；真实 LLM 适配器和一次受控重试尚未接入。图片生成、可编辑图层、版本恢复会按 `doc/06-development-plan.md` 逐步实现。真实完成边界见 `doc/13-phase-2-planner-foundation.md`。
 
-当前产出总览见 [`PROJECT_STATUS.md`](PROJECT_STATUS.md)。如果按每天 8 小时压缩实施，求职 MVP 的两周范围和每日验收标准见 [`doc/14-two-week-portfolio-mvp-plan.md`](doc/14-two-week-portfolio-mvp-plan.md)。原 10 周计划继续作为生产化范围基线。
+当前产出总览见 [`PROJECT_STATUS.md`](PROJECT_STATUS.md)。如果按每天 8 小时压缩实施，两周 MVP 的范围和每日验收标准见 [`doc/14-two-week-mvp-plan.md`](doc/14-two-week-mvp-plan.md)。原 10 周计划继续作为生产化范围基线。
 
 ## 环境要求
 

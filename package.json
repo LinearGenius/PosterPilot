@@ -2,7 +2,7 @@
   "name": "poster-pilot",
   "version": "0.1.0",
   "private": true,
-  "description": "A portfolio-ready, inspectable poster design agent.",
+  "description": "An inspectable, open-source poster design agent.",
   "packageManager": "pnpm@11.25.0",
   "engines": {
     "node": ">=20"

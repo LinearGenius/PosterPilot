@@ -1,6 +1,6 @@
 # PosterPilot 文档索引
 
-这套文档和代码同步演进。每完成一个阶段，都必须更新实施记录、验收结果和对应架构说明，避免出现“代码能演示，但面试时讲不清”的情况。
+这套文档和代码同步演进。每完成一个阶段，都必须更新实施记录、验收结果和对应架构说明，避免代码、演示和技术说明彼此脱节。
 
 ## 建议阅读顺序
 
@@ -13,12 +13,12 @@
 7. [06-development-plan.md](06-development-plan.md)：10 周实施与学习计划。
 8. [07-phase-1-implementation-log.md](07-phase-1-implementation-log.md)：第一阶段实际做了什么。
 9. [08-testing-and-acceptance.md](08-testing-and-acceptance.md)：如何验证功能与记录证据。
-10. [09-interview-guide.md](09-interview-guide.md)：如何演示、陈述和应对追问。
+10. [09-project-demo-guide.md](09-project-demo-guide.md)：如何演示项目、说明技术取舍并回答常见问题。
 11. [10-visual-redesign.md](10-visual-redesign.md)：Pinterest 参考拆解、视觉语言与动效参数。
 12. [11-chinese-pages-and-responsive-layout.md](11-chinese-pages-and-responsive-layout.md)：中文双页面、一屏工作台与响应式改造记录。
 13. [12-assistant-mascot-design.md](12-assistant-mascot-design.md)：3D 助手精灵的参考拆解、角色设定与三视图。
 14. [13-phase-2-planner-foundation.md](13-phase-2-planner-foundation.md)：Planner Provider、Schema、防污染失败路径和固定用例集。
-15. [14-two-week-portfolio-mvp-plan.md](14-two-week-portfolio-mvp-plan.md)：每天 8 小时的两周压缩范围、逐日任务和验收标准。
+15. [14-two-week-mvp-plan.md](14-two-week-mvp-plan.md)：每天 8 小时的两周压缩范围、逐日任务和验收标准。
 16. [decisions/ADR-001-deterministic-first.md](decisions/ADR-001-deterministic-first.md)：为什么先用确定性 Planner。
 
 ## 文档维护规则
@@ -29,6 +29,6 @@
 - 每次完成一个里程碑：追加 `07`，执行并更新 `08`。
 - README 中只写快速开始，细节归档在这里。
 
-## 面试表达边界
+## 公开表述边界
 
-PosterPilot 是独立实现的求职项目。可以讲设计分析、实现和验证，但不要把其他公司的 Agent 核心能力描述成自己的历史工作。合理表达是：曾参与相关产品的前端协作，由此观察到一些产品模式；离职后独立拆解并实现了这个边界更小、可验证的项目。
+PosterPilot 是一个独立实现的开源项目。公开文档只陈述能够由仓库代码、测试和验收记录验证的设计、实现与结果；规划中、尚未接入或尚未验证的能力必须明确标注，不包装成已经完成的功能。
