@@ -1,0 +1,22 @@
+{
+  "name": "poster-pilot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A portfolio-ready, inspectable poster design agent.",
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,magenta \"pnpm --filter @poster-pilot/api dev\" \"pnpm --filter @poster-pilot/web dev\"",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
